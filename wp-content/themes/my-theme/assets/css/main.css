@@ -1,0 +1,123 @@
+html {
+  font-size: 62.5%;
+  font-family: 'Dosis', sans-serif;
+  
+}
+
+body {
+  color: #333;
+  font-family: 'Dosis', sans-serif;
+  margin: 0;
+  
+  }
+
+/*header*/
+
+.header {
+  
+      background-color: #0d7619;
+      display: flex;
+      justify-content: space-between;
+  
+  }
+
+ul, li {
+  list-style-type: none;
+
+}
+
+li  a{
+  text-decoration: none;
+  font-size: 1.7rem;
+  margin-right: 15px;
+  color: #ffff;
+  font-weight: 700;
+}  
+
+ul {
+  display: inline-flex;
+}
+
+nav {
+      
+  padding: 30px;
+  margin-left: auto;
+
+}
+
+/*section 1 */
+
+.section-1 {
+  background-image: url(http://localhost:8000/wp-content/themes/my-theme/assets/img/banniere.jpg);
+  padding: 13% 10% 13% 10%;
+  background-size: cover;
+  text-align: center;
+}
+
+.section-1 p {
+  font-size: 2.5rem;
+  font-family: 'Dosis', sans-serif;
+  color: #615858;  
+}
+
+h1 {
+text-transform: uppercase;
+font-size: 4rem;
+font-weight: 600;
+line-height: 1.9rem;
+}
+
+.Titre {
+  color: #615858;
+  letter-spacing: 0.2rem;
+}
+.Titre-green {
+  color: #9acf64;
+  }
+
+.button {
+  background-color: #395e1b;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #ffff;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 17px 10px 17px;
+  border-radius: 50px;
+}
+/*section*/
+
+.section-2 {
+  padding: 13% 10% 13% 10%;
+  text-align: center;
+}
+
+.section-2 {
+  font-size: 2rem;
+  color: #615858;
+  line-height: 3.5rem;
+  font-weight: 300;
+}
+
+.Section-titre {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.9rem;
+  letter-spacing: 0.9rem;
+  margin-bottom: 80px;
+}
+
+.Section-titre:before {
+  content:"";
+  position: absolute;
+  background-color: black;
+  width: 100px;
+  height: 1px;
+  bottom: 50px;
+  left: 47%;
+  opacity: 50%;
+}
+
+p {
+}
